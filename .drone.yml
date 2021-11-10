@@ -5,10 +5,10 @@ steps:
 - name: ssh commands
   image: appleboy/drone-ssh
   settings:
-    host: foo.com
-    username: root
-    password:
-      from_secret: ssh_password
+    host: 54.87.48.82
+    username: ubuntu
+    key:
+      from_secret: ssh_key
     port: 22
     script:
       - echo hello
