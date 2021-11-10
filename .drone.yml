@@ -11,4 +11,4 @@ steps:
       from_secret: ssh_key
     port: 22
     script:
-      - mkdir demo /home/ubuntu/
+      - echo hello world
